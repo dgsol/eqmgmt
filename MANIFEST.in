@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eqmgmt *.css
+recursive-include eqmgmt *.csv
+recursive-include eqmgmt *.html
+recursive-include eqmgmt *.ico
+recursive-include eqmgmt *.js
+recursive-include eqmgmt *.json
+recursive-include eqmgmt *.md
+recursive-include eqmgmt *.png
+recursive-include eqmgmt *.py
+recursive-include eqmgmt *.svg
+recursive-include eqmgmt *.txt
+recursive-exclude eqmgmt *.pyc
